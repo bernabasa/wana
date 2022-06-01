@@ -1,92 +1,102 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 
 body {
-    color: #114a50;
-    font-family: Helvetica, Arial, sans-serif;
+  color: #114a50;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
-    padding: 20px 35px;
-    background-color: #8f8f48;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  padding: 20px 35px;
+  background-color: #8f8f48;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #204d15;
-    margin: 0;
-    
-  }
+  font-weight: bold;
+  font-size: 36px;
+  color: #204d15;
+  margin: 0;
   
-  header a {
-    text-decoration: none;
-    color: #fce138;
-  }
+}
 
-  header a {
-    text-decoration: none;
-    color: #fce138;
-  }
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+header nav {
   
-  header nav {
-    
-    margin: 7px 0;
-  }
-  header nav ul  {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
+  margin: 7px 0;
+}
+header nav ul  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
-  header nav ul li a {
-      margin: 0 30px;
-      font-weight: lighter;
-      font-size: 22px;
-  }
-
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+.hero {
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 25px;
+  
+  background-size: cover;
+}
+.About-Me {
+  width: 400px 35%;
+  margin: 0 auto 30px auto;
  
-  footer {
-      background: #180303;
-      width: 100%;
-      padding: 40px; 35;
-    
-  }
+}
+.text-right {
+  text-align: right;
+}
 
-  footer h2 {
-      display: inline;
-      color: #867218;
-      font-size: 30px;
-      margin: 0;
-  }
-  footer div {
-      float: right;
-      line-height: 1.5;
-      text-align: right;
-  }
-  footer a {
-      color: #fce138;
-  }
 
-  section {
-    padding: 60px;
-    background-image:url ("../images/hero-bg.jpg") ;
-  }
 
-  .hero {
-    background-image: url("../images/hero-bg.jpg");
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-  }
+footer {
+    background: #180303;
+    width: 100%;
+    padding: 40px; 35;
+  
+}
+
+footer h2 {
+    display: inline;
+    color: #867218;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: #fce138;
+}
+
+section {
+  padding: 60px;
+  background-image:url ("../images/hero-bg.jpg") ;
+}
+
